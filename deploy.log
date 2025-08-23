@@ -1,0 +1,83 @@
+Skip to content
+Navigation Menu
+rkristelijn
+next-blog
+
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Deploy to Cloudflare Workers
+fix: remove posts.json from git tracking and simplify deployment #35
+Jobs
+Run details
+deploy
+succeeded now in 1m 30s
+Search logs
+1s
+0s
+3s
+29s
+0s
+41s
+┌─────────────────────────────┐
+│ OpenNext — Cloudflare build │
+└─────────────────────────────┘
+App directory: /home/runner/work/next-blog/next-blog
+Next.js version : 15.3.5
+@opennextjs/cloudflare version: 1.5.2
+@opennextjs/aws version: 3.7.0
+┌─────────────────────────────────┐
+│ OpenNext — Building Next.js app │
+└─────────────────────────────────┘
+> next-blog@0.1.0 prebuild
+> node scripts/generate-posts-data.js
+Generating posts data...
+✅ Generated posts data with 13 posts
+📁 Output: /home/runner/work/next-blog/next-blog/src/data/posts.json
+> next-blog@0.1.0 build
+> next build
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+   ▲ Next.js 15.3.5
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 10.0s
+   Linting and checking validity of types ...
+   Collecting page data ...
+Generated static params for slugs: [
+  '01-creating-nextjs-project',
+  '02-github-actions-deployment',
+  '03-adding-mdx-functionality',
+  '04-integrating-material-ui',
+  '05-optimizing-code-quality',
+  '06-ai-assisted-development',
+  '07-next-steps',
+  '08-architecture-overview',
+  '09-user-guide',
+  '10-developer-guide',
+  '11-fixing-cloudflare-deployment',
+  '12-fixing-dark-theme-implementation',
+  '13-fixing-theme-flash-fouc'
+]
+   Generating static pages (0/18) ...
+   Generating static pages (4/18) 
+   Generating static pages (8/18) 
+   Generating static pages (13/18) 
+ ✓ Generating static pages (18/18)
+   Finalizing page optimization ...
+   Collecting build traces ...
+Route (app)                                   Size  First Load JS
+2s
+11s
+0s
+1s
+0s

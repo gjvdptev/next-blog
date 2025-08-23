@@ -20,6 +20,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Generate posts data
+        run: |
+          echo "🔄 Regenerating posts.json with latest content..."
+          node scripts/generate-posts-data.js
+          echo "✅ Posts data regenerated successfully!"
+
       - name: Build project
         run: npm run ci:build
 
